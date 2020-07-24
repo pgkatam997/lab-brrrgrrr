@@ -95,10 +95,10 @@ document.querySelector(".btn-patty").onclick = function () {
 };
 
 // Trial 2 - Setup event listener for the cheese button
-document.querySelector(".btn-cheese").onclick =function(){
+document.querySelector(".btn-cheese").onclick = function () {
   state.Cheese = !state.Cheese;
   renderAll();
-}
+  };
 
 // Trial 2 - Setup event listener for the tomatoes button
 document.querySelector(".btn-tomatoes").onclick =function(){
